@@ -1,0 +1,77 @@
+.Zip {
+    display: inherit;
+
+    width: 51rem;
+    height: 38rem;
+
+    background-color: #FFFBF2;
+    box-shadow: 5px 5px rgba(0,0,0,0.15);
+
+    border: 2px solid #444444;
+
+    position: fixed;
+    left: 3rem;
+    top: 4.5rem;
+
+    overflow-y: hidden;
+    overflow-x:hidden;
+}
+/* .Zip::before {
+    content: "";
+    position: absolute;
+    height: calc(38rem - 2.25rem);
+    right: 0;left: 0;
+    top:1.85rem;bottom: 0;
+
+    border-right: 2px solid #EADDC2;
+    border-bottom: 2px solid #EADDC2;
+
+    overflow-x:hidden;
+} */
+
+
+.GifWrap {
+    height: 36rem;
+    margin: 2rem 1rem;
+    margin-bottom: 0rem;
+    margin-right: 0;
+    width:auto;
+
+    padding:1.5rem 0rem;
+    padding-bottom: .5rem;
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow-y: scroll;
+}
+
+.Gifs img {
+    width: 23rem;
+    height: auto;
+}
+.Gifs p {
+    color: #444;
+    margin: .5rem 0;
+    font-size: .9rem;
+}
+
+.GifWrap::-webkit-scrollbar {
+    width: 1rem; /* 웹킷 기반 브라우저에 대한 스크롤바 너비를 설정합니다. */
+}
+
+.GifWrap::-webkit-scrollbar-thumb {
+    background-color: #EADDC2; /* 스크롤바 썸의 배경색을 설정합니다. */
+    border-left: 2px solid #444;
+    border-bottom: 2px solid #444;
+    border-top: 2px solid #444;
+
+    box-shadow: inset -2px -2px rgba(0,0,0,0.1);
+}
+
+.GifWrap::-webkit-scrollbar-track {
+    background-color: #F5EEDE; /* 스크롤바 트랙의 배경색을 설정합니다. */
+    border-left: 2px solid #444;
+
+    box-shadow: inset -2px -2px #EADDC2;
+}

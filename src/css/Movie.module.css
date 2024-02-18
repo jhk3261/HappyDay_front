@@ -1,0 +1,57 @@
+.Movie {
+    display: inherit;
+
+    width: 36.375rem;
+    height: 26rem;
+
+    background-color: #444444;
+    box-shadow: 5px 5px rgba(0,0,0,0.15);
+
+    border: 2px solid #444444;
+
+    position: fixed;
+    right: 12rem;
+    top: 4.5rem;
+}
+
+.TopWrap {
+    padding: 3rem 1rem;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+.TopRight {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.TopRight span:nth-child(1) {
+    font-size: 1.75rem;
+    color:#fff;
+}
+.TopRight span:nth-child(2) {
+    font-size: 1.25rem;
+    color:#fff;
+    margin-left: .5rem;
+}
+.TopLeft {
+    font-size: 1.75rem;
+    color:#fff;
+}
+.NextBtn {
+    padding: 3rem 1rem;
+}
+.NextBtn span{
+    font-size: 1.75rem;
+    color:#fff;
+    
+    position: absolute;
+    right: 1rem;
+    bottom: .4rem;
+
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Galmuri11';
+    font-weight: normal;
+    src: url("../font/Galmuri11.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Soyananum9';
+    font-weight:lighter;
+    src: url("../font/소야나눔9.ttf") format("truetype");
+}
+
+*{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+body, h1, h2, p, span, li, ol,div, img{
+    margin: 0;
+    padding:0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 35px;
+    border-bottom: solid 2px #444444;
+
+    background-color: #458D80;
+}
+.LeftHeder, .RightHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-right: solid 2px #444444;
+}
+.LogoImg {
+    width: 20px;
+    height: 20px;
+
+    /* image-rendering: pixelated; */
+}
+.SubTitle {
+    width: auto;
+    height: 35px;
+
+    padding: 0.75rem 1rem;
+}
+p {
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'Soyananum9';
+}
+.Date, .Time {
+    width: auto;
+    height: 35px;
+
+    padding: 0.75rem 1rem;
+    border-left: solid 2px #444444;
+}
+span {
+    font-size: 0.8rem;
+    font-family: 'Soyananum9';
+}

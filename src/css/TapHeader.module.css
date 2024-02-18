@@ -1,0 +1,43 @@
+.TapHeader {
+    height: 2.25rem;
+
+    background-color: #F5EEDE;
+    border-bottom: 2px solid #444444;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.75rem 1.25rem;
+    position: relative;
+
+    box-shadow: inset -2px -2px #EADDC2;
+
+    cursor: pointer;
+}
+.TapHeader::before {
+    content: "";
+    position: absolute;
+    right: 0;left: 0;
+    top: 0; bottom: 0;
+
+    border-top: solid 2px #fff;
+    border-left: solid 2px #fff;
+    
+}
+.Line {
+    width: 38%;
+}
+.Line hr {
+    width: auto;
+    border:1.5px solid #444444;
+    size: 2px;
+}
+.TapHeader p {
+    color:#444444;
+    font-size: 1rem;
+    font-weight: bold;
+
+    letter-spacing :1px;
+    margin: 0 1rem;
+}
