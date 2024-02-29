@@ -95,3 +95,97 @@ ol, li {
     font-size: .75rem;
     font-weight: 600;
 }
+@media only screen and (max-width:380px){
+    .BtnList {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .BtnBox {
+        flex:1;
+        width: 4.76rem;
+        background-color: #FFFBF2;
+        border-bottom: 2px solid #444;
+        border-right:0;
+        position: relative;
+    
+        cursor: pointer;
+    }
+    .BtnBox::before {
+        content: "";
+        position: absolute;
+        right: 0;left: 0;
+        top:0; bottom: 0;
+    
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+    }
+    .BtnBox::after {
+        content: "";
+        position: absolute;
+        right: 0;left: 0;
+        top:0; bottom: 0;
+    
+        border-bottom: 2px solid #EADDC2;
+        border-right: 2px solid #EADDC2;
+    }
+    .BtnBox:active::before {
+        border-top: 2px solid #EADDC2;
+        border-left: 2px solid #EADDC2;
+    }
+    .BtnBox:active::after{
+        border-bottom: 2px solid #fff;
+        border-right: 2px solid #FFF;
+    }
+    .BtnBox:nth-child(3){
+        border-right: 0;
+    }
+    .BtnBox:nth-child(3)::after {
+        right: 0px;
+    }
+    .BtnBox div {
+        width: fit-content;
+        margin: .5rem auto;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .BtnBox:nth-child(2) div {
+        margin: .35rem auto;
+    }
+    .BtnBox:nth-child(1) div {
+        margin: .5rem auto;
+    }
+    .IconImg {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        margin-bottom: .2rem;
+    }
+    .BtnBox:nth-child(2) img {
+        margin-bottom: .25rem;
+    }
+    .BtnBox p {
+        font-family: 'Soyananum9';
+        font-size: .3rem;
+        color:#444;
+        text-align: center;
+    }
+    .BtnBox .HashTag {
+        font-family: 'Galmuri11';
+        font-size: .25rem;
+        font-weight: bold;
+        color: #458D80;
+        margin-bottom: .1rem;
+    }
+    .BtnBox .HashTagInfo {
+        font-family: 'Galmuri11';
+        font-size: .25rem;
+        font-weight: 600;
+    }
+}

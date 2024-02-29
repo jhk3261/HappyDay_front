@@ -35,3 +35,49 @@
     background-color: transparent;
     border: 2px solid #444;
 }
+
+@media only screen and (max-width:380px) {
+    .DivWrap{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        margin-top: 1rem;
+        height: 100vh;  
+    }
+    .Launcher {
+        width: 20rem;
+        height: fit-content;
+    
+        background-color: #FFFBF2;
+        box-shadow: 5px 5px rgba(0,0,0,0.15);
+    
+        border: 2px solid #444444;
+        border-bottom: 0px;
+    
+        z-index: 0;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+    .ImgDiv {
+        width: fit-content;
+        height: fit-content;
+        margin-top:1rem;
+        margin-left: 0rem;
+    
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border:0;
+    }
+    .Launcher .TitleImg {
+        position: relative;
+    
+        width: 15rem;
+        height: 10rem;
+        background-color: transparent;
+        border: 2px solid #444;
+        border-left: 0;
+        border-top:0;
+    }
+}

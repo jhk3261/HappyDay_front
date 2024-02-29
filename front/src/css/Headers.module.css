@@ -70,3 +70,16 @@ span {
     font-size: 0.8rem;
     font-family: 'Soyananum9';
 }
+
+@media only screen and (max-width:380px) {
+    p{
+        font-size: 0.7rem;
+    }
+    .Date, .Time {
+        padding: 0.75rem .75rem;
+        border-left: solid 2px #444444;
+    }
+    .SubTitle {
+        padding: 0.75rem .75rem;
+    }
+}

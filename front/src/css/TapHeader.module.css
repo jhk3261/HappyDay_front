@@ -41,3 +41,52 @@
     letter-spacing :1px;
     margin: 0 1rem;
 }
+
+@media only screen and (max-width:380px) {
+    .TapHeader {
+        height: 1rem;
+    
+        background-color: #F5EEDE;
+        border-bottom: 2px solid #444444;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 0rem .5rem;
+        position: relative;
+    
+        box-shadow: inset -1.5px -1.5px #EADDC2;
+    
+        cursor: pointer;
+    }
+    .TapHeader::before {
+        content: "";
+        position: absolute;
+        right: 0;left: 0;
+        top: 0; bottom: 0;
+    
+        border-top: solid 1.5px #fff;
+        border-left: solid 1.5px #fff;
+        
+    }
+    .Line {
+        width: 38%;
+    }
+    .Line hr {
+        width: auto;
+        height: .5px;
+        border:.25px solid #444444;
+        size: 1px;
+
+        margin: .2rem 0rem;
+    }
+    .TapHeader p {
+        color:#444444;
+        font-size: .5rem;
+        font-weight: bold;
+    
+        letter-spacing :1px;
+        margin: 0 .25rem;
+    }
+}

@@ -21,3 +21,29 @@
     width: 2.5rem;
     height: 2.5rem;
 }
+
+@media only screen and (max-width:380px) {
+    .Xbtn {
+        width: 1rem;
+        height: 1rem;
+    
+        border-right: 2px solid #444444;
+        border-bottom: 2px solid #444444;
+        background-color: #EADDC2;
+    
+        z-index: 100;
+    
+        box-shadow: inset 1.5px 1.5px rgba(256,256,256,0.5);
+    
+        padding: 0;
+    
+        cursor: pointer;
+    }
+    .Xbtn:active {
+        box-shadow: inset 1.5px 1.5px rgba(0,0,0,.15);
+    }
+    .Xbtn img {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+}
