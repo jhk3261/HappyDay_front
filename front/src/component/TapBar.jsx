@@ -11,7 +11,7 @@ function TapBar({title, width, font, position, onHide}) {
 
     return (
         <div className={styles.TapBar} style={{position:position}}>
-            <Xbtn onClick={handleHideClick} />
+            <Xbtn onClick={handleHideClick} onTouchStart={handleHideClick}/>
             <TapHeader title={title} width={width} font={font}/>
         </div>
     )
