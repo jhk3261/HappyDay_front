@@ -22,6 +22,7 @@ function App() {
       case "zip":
         setIsZipVisible(true);
         break;
+        
       case "going":
         break;
       case "music":
