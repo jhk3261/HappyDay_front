@@ -41,7 +41,7 @@ function Launcher({onZipClick, onLettersClick, onHide}) {
             <Mobile>
                 <div className={styles.DivWrap} >
                     <div className={styles.Launcher} >
-                        <div className="Head">
+                        <div className={styles.Head}>
                             <TapBar title={"航海;항해"} width={width_m} font={font} onHide={onHide}/>
                         </div>
                         <div className={styles.ImgDiv}>

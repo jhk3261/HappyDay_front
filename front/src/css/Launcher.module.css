@@ -80,4 +80,7 @@
         border-left: 0;
         border-top:0;
     }
+    .Head {
+        position: relative;
+    }
 }
