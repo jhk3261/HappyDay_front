@@ -4,6 +4,7 @@
     align-items: center;
 
     height: 100vh;
+    margin-top: 1rem;
 }
 .Launcher {
     width: 45rem;
@@ -42,7 +43,7 @@
         justify-content: center;
         align-items: flex-start;
 
-        margin-top: 1rem;
+        margin-top: 4rem;
         height: 100vh;  
     }
     .Launcher {
@@ -74,11 +75,10 @@
         position: relative;
     
         width: 15rem;
-        height: 10rem;
+        height: 10.05rem;
         background-color: transparent;
-        border: 2px solid #444;
-        border-left: 0;
-        border-top:0;
+        border: 0;
+        border-bottom: 2px solid #444;
     }
     .Head {
         position: relative;
